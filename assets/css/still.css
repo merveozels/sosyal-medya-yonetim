@@ -1,0 +1,415 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "DM Sans", sans-serif;
+  margin-inline: auto;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* reset end */
+.container{
+  display: grid;
+  gap: 32px;
+  justify-items: center;
+  padding-inline: 16px;
+  background-color: #f6f3f5;
+}
+
+.star-content{
+  padding-block: 40px;
+  padding-inline: 32px;
+  background-color: #7551DC;
+  border-radius: 10px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+}
+
+.star-content h1{
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: white;
+  margin-bottom: 24px;
+}
+
+h1 span{
+  color:#ffcc6a ;
+  display: inline-block;
+}
+
+h4{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: white;
+  margin-top: 8px;
+
+}
+
+/* multiple-account-content */
+
+.multiple-account-content{
+  background-color: white;
+  padding: 16px;
+  border-radius: 10px;
+  max-width: 450px;
+}
+
+.instagram-part{
+  display: flex;
+  gap: 8px;
+  box-shadow: -9.78px 11.74px 24.45px 0px #621A7B0D;
+  border-radius:35px ;
+  padding: 16px 28px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.instagram-text h5{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 14.4px;
+  letter-spacing: -0.06em;
+  text-align: left;
+}
+
+.instagram-text span{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.62px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #9E9E9E;
+}
+
+.social-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.multiple-account-content h2{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  margin-top: 16px;
+}
+
+/* calender photo star */
+
+.schedule-content{
+  background-color:  #FFCC6A;
+  padding-inline: 16px;
+  padding-top: 16px;
+  border-radius: 10px;
+  max-width: 450px;
+
+}
+
+.schedule-content h3{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.06em;
+  text-align: left;
+}
+
+/* optimizasyon part here */
+
+.optimize-content{
+  background-color: #DBD1FC;
+  padding-block: 32px;
+  padding-inline: 16px;
+  justify-items: center;
+  display: grid;
+  gap: 24px;
+  border-radius: 10px;
+  max-width: 450px;
+
+
+}
+
+.optimize-content h3{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.06em;
+  text-align: left;
+}
+
+.optimize-content p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* graphic content */
+
+.graphic-content{
+  background-color: #7551DC;
+  padding-block: 24px;
+  padding-inline: 57px;
+  justify-items: center;
+  display: grid;
+  gap: 40px;
+  border-radius: 10px;
+  max-width: 450px;
+}
+
+.graphic-content h3{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+/* AVATAR CONTENT */
+
+
+.avatar-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #FFFFFF;
+  display: grid;
+  border-radius: 10px;
+  width: 450px;
+  padding-block: 24px;
+  padding-right: 124px;
+  padding-left: 25px;
+}
+
+
+.avatar-content h3{
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  color: #121212;
+  margin-bottom: 16px;
+}
+
+
+.avatar-content h6{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.share-content{
+  background-color: #f9eee2;
+  padding: 32px;
+  width: 450px;
+  position: relative;
+  border-radius: 10px;
+
+}
+
+.share-content h2{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.06em;
+  text-align: left;
+}
+
+.quick{
+  color: #5964e5;
+  font-style: italic;
+}
+
+.create-post-btn{
+  display: flex;
+  margin-top: 24px;
+  background-color:  #FFCC6A;
+  padding-block: 18px;
+  padding-inline: 26px;
+  width: 241px;
+  border-radius: 43px;
+  color: #7551DC;
+  font-size: 19.33px;
+  font-weight: 600;
+  line-height: 26.09px;
+  text-align: left;
+}
+
+.create-post-btn img{
+  margin-left: 15px;
+}
+
+.arrow-black{
+  position: absolute;
+  top: 166px;
+  left: 110px;
+}
+
+.al-content{
+  background-color: #FFCC6A;
+  padding: 32px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.al-content h3{
+font-size: 32px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -0.06em;
+text-align: left;
+margin-bottom: 24px;
+}
+
+@media (width >= 758px){
+
+  .star-content{
+    grid-area: startc;
+    max-width: 750px;
+    width: 750px;
+
+  }
+  
+.instagram-part{
+  gap: 8px;
+  box-shadow: -9.78px 11.74px 24.45px 0px #621A7B0D;
+  border-radius:35px ;
+  padding: 0;
+  width: 130px;
+  display: flex;
+}
+
+  .multiple-account-content{
+    grid-area: multiple ;
+    max-width: 348px;
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 250px;
+    justify-content: space-around;
+
+  }
+
+  .multiple-account-content h2{
+  margin-left: 15px;
+  }
+  
+  .schedule-content{
+    grid-area: takvim;
+    max-width: 348px;
+    width: 348px;
+    height: 250px;
+
+  }
+
+  .optimize-content{
+  grid-area: optimize;
+  width: 750px;
+  max-width: 750px;
+
+  }
+  
+.graphic-content{
+  grid-area: grafik;
+  width: 750px;
+  max-width: 750px;
+  display: flex;
+}
+
+.graphic-content h3{
+  align-self: center;
+}
+
+.avatar-content{
+  grid-area: avatar;
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.share-content{
+  grid-area: share;
+  max-width: 348px;
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 354px;
+  justify-content: space-around;
+}
+
+.al-content{
+  grid-area: yapay;
+  max-width: 348px;
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 354px;
+  justify-content: space-around;
+}
+
+
+.arrow-black{
+  position: absolute;
+  top: 263px;
+  left: 101px;
+}
+
+.container{
+  display: grid;
+  grid-template-areas:
+  "startc startc"
+  "multiple takvim"
+  "optimize optimize"
+  "grafik grafik"
+  "avatar avatar"
+  "share yapay"
+  ;
+
+  gap: 32px;
+  padding-inline: 32px;
+  justify-items: center;
+  align-items: center;
+}
+
+}
+
